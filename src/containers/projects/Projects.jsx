@@ -25,7 +25,7 @@ export default function Projects() {
 
   useEffect(() => {
     const getRepoData = () => {
-      fetch("https://api.github.com/users/beecodeguy/repos")
+      fetch("https://api.github.com/users/bijaybohora/repos")
         .then(result => {
           if (result.ok) {
             return result.json();
